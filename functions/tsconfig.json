@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "./lib", // Asegúrate de que la ruta de salida sea correcta
+    "rootDir": "./src", // Asegúrate de que la ruta raíz sea correcta
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "esModuleInterop": true, // Esto puede ayudar con las importaciones de módulos
+    "skipLibCheck": true, // Opcional, puede acelerar la compilación
+    "forceConsistentCasingInFileNames": true // Asegura consistencia en nombres de archivos
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
